@@ -1,6 +1,7 @@
 body{
    max-width:600px;
     margin: 0 auto;
+    background-color: rgb(128, 168, 155);
 }
 
 h1{
@@ -8,4 +9,26 @@ h1{
 }
 p{
     font-size: 18px;
+}
+.Indice{
+    text-align: center;
+}
+h3 {
+    text-decoration: underline;
+}
+nav ul li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 8px 12px;
+    border: 1px solid #333; 
+    border-radius: 5px; 
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: rgb(128, 168, 155);
 }
